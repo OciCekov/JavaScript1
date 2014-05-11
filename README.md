@@ -1,2 +1,4 @@
-Javascript1
+Javascript Fundamentals homeworks
 ===========
+
+
