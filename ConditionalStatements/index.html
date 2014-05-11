@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Conditional statements</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+</head>
+<body>
+<fieldset>
+    <legend>1.Two variables</legend>
+    <p>Write an <span class="whiten">if</span> statement that examines two integer variables and exchanges their values
+        if the first one is greater than the second one.</p>
+
+    <label for="two-variables-input">Enter variables</label>
+    <input type="text" id="two-variables-input" placeholder="example: 5, 6"/>
+    <br/>
+
+    <label for="two-variables-output">Result</label>
+    <input type="text" id="two-variables-output" disabled="disabled"/>
+    <br/>
+
+    <button id="two-variables-result" onclick="twoVariables()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>2.Positive or Negative</legend>
+    <p>Write a script that shows the sign (+ or -) of the product of three real numbers without calculating it. Use a sequence of if statements.</p>
+
+    <label for="positive-negative-input">Enter variables</label>
+    <input type="text" id="positive-negative-input" placeholder="example: 5, 6, 7"/>
+    <br/>
+
+    <label for="positive-negative-output">Result</label>
+    <input type="text" id="positive-negative-output" disabled="disabled"/>
+    <br/>
+
+    <button id="positive-negative-result" onclick="positiveNegative()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>3.Biggest out of three</legend>
+    <p>Write a script that finds the biggest of three integers using nested if statements.</p>
+
+    <label for="biggest-input">Enter variables</label>
+    <input type="text" id="biggest-input" placeholder="example: 5, 6, 7"/>
+    <br/>
+
+    <label for="biggest-output">Result</label>
+    <input type="text" id="biggest-output" disabled="disabled"/>
+    <br/>
+
+    <button id="biggest-result" onclick="biggestOfThree()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>4.Sort Three Values</legend>
+    <p>Sort 3 real values in descending order using nested if statements.</p>
+
+    <label for="descending-input">Enter variables</label>
+    <input type="text" id="descending-input" placeholder="example: 5, 6, 7"/>
+    <br/>
+
+    <label for="descending-output">Result</label>
+    <input type="text" id="descending-output" disabled="disabled"/>
+    <br/>
+
+    <button id="descending-result" onclick="descendingValues()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>5.Tell the digit</legend>
+    <p>Write script that asks for a digit and depending on the input shows the name of that digit (in English) using a switch statement.</p>
+
+    <label for="digit-input">Enter the digit</label>
+    <input type="text" id="digit-input" placeholder="example: 5"/>
+    <br/>
+
+    <label for="digit-output">Result</label>
+    <input type="text" id="digit-output" disabled="disabled"/>
+    <br/>
+
+    <button id="digit-result" onclick="tellDigit()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>6.Quadratic Equation</legend>
+    <p>Write a script that enters the coefficients <span class="whiten">a</span>, <span class="whiten">b</span> and <span class="whiten">c</span> of a quadratic equation
+        <br/>
+       <span class="whiten">a*x2 + b*x + c = 0</span>
+        <br/>
+        and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots.
+    </p>
+
+    <label for="quadratic-a-input">a</label>
+    <input type="text" id="quadratic-a-input" placeholder="example: 5"/>
+    <br/>
+
+    <label for="quadratic-b-input">b</label>
+    <input type="text" id="quadratic-b-input" placeholder="example: 5"/>
+    <br/>
+
+    <label for="quadratic-c-input">c</label>
+    <input type="text" id="quadratic-c-input" placeholder="example: 5"/>
+    <br/>
+<p>Results</p>
+    <label for="quadratic-x1-output">x1</label>
+    <input type="text" id="quadratic-x1-output" disabled="disabled"/>
+    <br/>
+
+    <label for="quadratic-x2-output">x2</label>
+    <input type="text" id="quadratic-x2-output" disabled="disabled"/>
+    <br/>
+
+    <button id="quadratic-result" onclick="quadraticEquation()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>7.Greatest out of five</legend>
+    <p>Write a script that finds the greatest of given 5 variables.</p>
+
+    <label for="greatest-input">Enter variables</label>
+    <input type="text" id="greatest-input" placeholder="example: 5, 6, 7"/>
+    <br/>
+
+    <label for="greatest-output">Result</label>
+    <input type="text" id="greatest-output" disabled="disabled"/>
+    <br/>
+
+    <button id="greatest-result" onclick="greatestOfFive()">Get result</button>
+</fieldset>
+
+<fieldset>
+    <legend>8.Tell the number</legend>
+    <p>Write a script that converts a number in the range [0...999] to a text corresponding to its English pronunciation. Examples:
+        0  'Zero'
+        273  'Two hundred seventy three'
+        400  'Four hundred'
+        501  'Five hundred and one'
+        711  'Seven hundred and eleven'
+    </p>
+
+    <label for="tell-number-input">Enter variable</label>
+    <input type="text" id="tell-number-input" placeholder="example: 101"/>
+    <br/>
+
+    <label for="tell-number-output">Result</label>
+    <input type="text" id="tell-number-output" disabled="disabled"/>
+    <br/>
+
+    <button id="tell-number-result" onclick="tellNumber()">Get result</button>
+</fieldset>
+
+<script src="scripts/script.js" type="text/javascript"></script>
+<script src="scripts/script6To8.js" type="text/javascript"></script>
+</body>
+</html>

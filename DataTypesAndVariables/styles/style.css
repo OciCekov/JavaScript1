@@ -1,0 +1,35 @@
+body,
+fieldset,
+legend,
+p,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman' sans-serif;
+}
+fieldset {
+  margin-left: 10px;
+  width: 30%;
+  border: 1px solid #2f4f4f;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 10px;
+  background-color: #EBEBE4;
+}
+legend {
+  font-size: 1.2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+textarea {
+  border-color: black;
+  border-radius: 5px;
+  color: black;
+  font-size: 0.8em;
+  padding-left: 5px;
+}
+textarea#best-quote {
+  font-weight: bold;
+  font-size: 1.0em;
+}

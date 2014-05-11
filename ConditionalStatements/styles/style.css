@@ -1,0 +1,31 @@
+fieldset {
+  width: 300px;
+  background-color: #fef5a5;
+  border: 2px solid #2dfd2b;
+  border-radius: 15px;
+  text-align: right;
+  color: dimgray;
+}
+fieldset legend {
+  font-style: italic;
+  text-align: center;
+}
+fieldset .whiten {
+  color: black;
+}
+fieldset input {
+  padding: 5px;
+  background-color: #fcf4a4;
+  border: 2px solid #affda2;
+  border-radius: 5px;
+  outline-color: none;
+}
+fieldset button {
+  color: dimgray;
+  background-color: #fcf4a4;
+  border: 2px solid #affda2;
+  border-radius: 5px;
+}
+fieldset button:hover {
+  background-color: gray;
+}

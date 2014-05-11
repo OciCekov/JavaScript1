@@ -1,0 +1,61 @@
+html, body, fieldset, legend, p, input, button, label {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	width: 400px;
+	padding: 15px;
+	margin-left: 10px;
+	border: 3px solid #8fbc8f;
+	border-radius: 10px;
+	background: #b0ffa3;
+	text-align: right;
+	&:last-of-type {
+		margin-bottom: 20px;
+	}
+
+	label {
+		text-align: right;
+		color: #2f4f4f;
+		margin-right: 10px;
+	}
+	legend {
+		text-align: right;
+		font-weight: bold;
+		font-style: italic;
+		margin-bottom: -10px;
+	}
+	input,textarea {
+		background-color: #b0ffa3;
+		border: 1px solid #8fbc8f;
+		border-radius: 5px;
+		padding-left: 5px;
+		outline: none;
+		color: #2f4f4f;
+		width: 180px;
+		&#circle-result{
+			vertical-align: top;
+			resize: none;
+		}
+	}
+	button {
+		display: block;
+		float: right;
+		margin-right: 5px;
+		border: 2px solid #8fbc8f;
+		border-radius: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		background-color: #b0ffa3;
+		color: gray;
+		&:hover {
+			background-color: #8fbc8f;
+		}
+	}
+	p {
+		text-align: right;
+		color: #2f4f4f;
+		margin-bottom: 5px;
+	}
+}
