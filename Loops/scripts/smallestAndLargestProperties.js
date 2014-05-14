@@ -7,7 +7,7 @@ function findSmallestAndLargestProperties() {
     // Yes it may be a "little" hack, but I really liked to see it with user input.
 
     function propertiesToArray(inputtedObject) {
-        
+
         var properties = [];
 
         for (var property in inputtedObject) {
