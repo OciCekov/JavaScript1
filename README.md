@@ -1,4 +1,0 @@
-Javascript Fundamentals homeworks
-===========
-
-
