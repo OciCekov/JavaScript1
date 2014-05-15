@@ -30,7 +30,7 @@ function typeResult() {
         isSensitive = false;
     }
 
-    var result = findTheWord(text,word, isSensitive);
+    var result = findTheWord(text, word, isSensitive);
 
-    document.getElementById('find+word-output').value= 'your word: "'+ word+ '" is found '+result + 'times';
+    document.getElementById('find-word-output').value = 'your word: "' + word + '" is found ' + result + 'times';
 }

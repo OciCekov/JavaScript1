@@ -1,0 +1,38 @@
+fieldset {
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: lightsalmon;
+  text-align: right;
+}
+fieldset input,
+fieldset textarea {
+  background-color: #afeeee;
+  border: 1px solid #2e8b57;
+  border-radius: 5px;
+  width: 50%;
+  resize: none;
+  padding: 2px;
+  outline: none;
+  vertical-align: top;
+}
+fieldset button {
+  background-color: #afeeee;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+fieldset button:hover {
+  background-color: lightsalmon;
+}
+fieldset span {
+  color: gray;
+}
+fieldset span#underlined {
+  color: #afeeee;
+  text-decoration: underline;
+}
+legend {
+  margin-bottom: -10px;
+}

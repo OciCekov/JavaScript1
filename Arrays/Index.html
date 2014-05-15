@@ -3,58 +3,71 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Arrays Homework</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
 <body>
 <fieldset>
-    <legend>1. Allocate the array </legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <legend>1. Allocate the array</legend>
+    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5.
+        Print the obtained array on the console.</p>
 
-    <input type="text" id="allocate-input"/>
+    <label for="allocate-input">Enter the array</label>
+    <input type="text" id="allocate-input" placeholder="2 3 6"/>
     <br/>
 
+    <label for="allocate-output">Here is the result</label>
     <textarea id="allocate-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
-    <button onclick="allocateArray()">See the new</button>
+    <button onclick="allocateArray()">See it</button>
 </fieldset>
 
 <fieldset>
     <legend>2. Compare two arrays</legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <p>Write a script that compares two <span>char</span> arrays lexicographically (letter by letter).</p>
 
-    <input type="text" id="compare-first-input"/>
+    <label for="compare-first-input">First array</label>
+    <input type="text" id="compare-first-input" placeholder="a s d f "/>
     <br/>
 
-
-    <input type="text" id="compare-second-input"/>
+    <label for="compare-second-input">Second array</label>
+    <input type="text" id="compare-second-input" placeholder="f s d a"/>
     <br/>
 
+    <label for="compare-output">Result</label>
     <textarea id="compare-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
+
     <button onclick="compareArrays()">See the new</button>
 </fieldset>
 
 <fieldset>
-    <legend>3. Max sequence </legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <legend>3. Max sequence</legend>
+    <p>Write a script that finds the maximal sequence of equal elements in an array.Example: {2, 1, 1, 2, 3, 3,<span> 2, 2, 2,</span> 1} -> {2, 2, 2}.</p>
 
-    <input type="text" id="max-sequence-input"/>
+    <label for="max-sequence-input">Enter the array</label>
+    <input type="text" id="max-sequence-input" placeholder="2 3 6 5"/>
     <br/>
 
+    <label for="max-sequence-output">Result</label>
     <textarea id="max-sequence-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
-    <button onclick="maxSequence()">See the new</button>
+
+    <button onclick="maxSequence()">See the result</button>
 </fieldset>
 
 <fieldset>
-    <legend>4. Max increasing sequence </legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <legend>4. Max increasing sequence</legend>
+    <p> Write a script that finds the maximal increasing sequence in an array. Example: {3, <span>2, 3, 4,</span> 2,2, 4} -> {2, 3, 4}. </p>
 
-    <input type="text" id="max-increasing-input"/>
+    <label for="max-increasing-input">Enter the array</label>
+    <input type="text" id="max-increasing-input" placeholder="5 6 6 2 3"/>
     <br/>
 
+    <label for="max-increasing-output">Result</label>
     <textarea id="max-increasing-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
-    <button onclick="maxIncreasing()">See the new</button>
+
+    <button onclick="maxIncreasing()">See the result</button>
 </fieldset>
 
 

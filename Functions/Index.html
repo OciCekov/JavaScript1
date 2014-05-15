@@ -3,15 +3,22 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Functions Homework</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 <fieldset>
     <legend>1.Last Digit</legend>
+    <p>
+        Write a function that returns the last digit of given integer as an English word. Examples: 512 -> "two", 1024->
+        "four", 12309 -> "nine"
+    </p>
 
-    <input type="text" id="last-digit-input"/>
+    <label for="last-digit-input">Enter the number</label>
+    <input type="text" id="last-digit-input" placeholder="3434"/>
     <br/>
 
-    <input type="text" id="last-digit-output"/>
+    <label for="last-digit-output">Result</label>
+    <input type="text" id="last-digit-output" disabled/>
     <br/>
 
     <button onclick="typeLastDigit()">See it</button>
@@ -19,11 +26,16 @@
 
 <fieldset>
     <legend>2.Reverse Number</legend>
+    <p>
+        Write a function that reverses the digits of given decimal number. Example: 256 -> 652
+    </p>
 
+    <label for="reverse-input">Enter the number</label>
     <input type="text" id="reverse-input"/>
     <br/>
 
-    <input type="text" id="reverse-output"/>
+    <label for="reverse-output">Result</label>
+    <input type="text" id="reverse-output" disabled/>
     <br/>
 
     <button onclick="typeReversed()">See it</button>
@@ -31,58 +43,84 @@
 
 <fieldset>
     <legend>3.Find the word</legend>
-
-    <input type="text" id="text-input"/>
+    <p>
+        Write a function that finds all the occurrences of word in a text
+        -The search can case sensitive or case insensitive
+        -Use function overloading
+    </p>
+    <label for="text-input">Enter the text</label>
+    <textarea name="" id="text-input" cols="30" rows="5"></textarea>
     <br/>
 
+    <label for="word-input">Word to found</label>
     <input type="text" id="word-input"/>
     <br/>
 
-    <input type="text" id="find-word-output"/>
+    <label for="find-word-output">Result</label>
+    <textarea id="find-word-output" cols="30" rows="5" disabled></textarea>
     <br/>
 
+    <label for="case-sensitive">Case sensitive</label>
     <input type="radio" name="method" id="case-sensitive" value="Case sensitive">
+
+    <br/>
+    <label for="case-insensitive">Case Insensitive</label>
     <input type="radio" name="method" id="case-insensitive" value="Case insensitive" checked>
 
+    <br/>
     <button onclick="typeResult()">See it</button>
 </fieldset>
 
 <fieldset>
+
     <legend>4.Count the divs</legend>
     <div id="the-div"> There are evil divs in me
         <div> There is a master div on top of me</div>
         <div>I'm squished</div>
-        <div>Tell me about it..... </div>
+        <div>Tell me about it.....</div>
     </div>
 
-    <input type="text" id="divs-result"/>
-
+    <label for="divs-result">Result</label>
+    <textarea id="divs-result" cols="30" rows="5" disabled></textarea>
 </fieldset>
 
 <fieldset>
-    <legend>4.Number of appearance's</legend>
+    <legend>5.Number of appearance's</legend>
+    <p>
+        Write a function that counts how many times given number appears in given array.
+        Write a test function to check if the function is working correctly.
+    </p>
 
-    <input type="text" id="sequence-input"/>
+    <label for="sequence-input">Enter the array</label>
+    <input type="text" id="sequence-input" placeholder="5 6 7 8 8 7 7 7"/>
     <br/>
 
-    <input type="text" id="number-input"/>
+    <label for="number-input">Enter the number</label>
+    <input type="text" id="number-input" placeholder="7"/>
     <br/>
 
-    <input type="text" id="appear-output"/>
+    <label for="appear-output">Result</label>
+    <textarea id="appear-output" cols="30" rows="5"></textarea>
     <br/>
 
     <button onclick="typeAppearances()">Check them</button>
 </fieldset>
 
 <fieldset>
-    <legend>4.Number of appearance's</legend>
+    <legend>6.Bigger than neighbours</legend>
+    <p>
+        Write a function that checks if the element at given position in given array of integers is bigger than its two neighbors (when such exist).
+    </p>
 
+    <label for="neighbour-sequence">Enter the array</label>
     <input type="text" id="neighbour-sequence"/>
     <br/>
 
+    <label for="neighbour-input">Enter the index</label>
     <input type="text" id="neighbour-input"/>
     <br/>
 
+    <label for="neighbour-output">Result</label>
     <input type="text" id="neighbour-output"/>
     <br/>
 
@@ -92,10 +130,12 @@
 <fieldset>
     <legend>2.Reverse Number</legend>
 
-    <input type="text" id="index-of-in"/>
+    <label for="index-of-in">Enter the array</label>
+    <input type="text" id="index-of-in"placeholder="5 6 8 5"/>
     <br/>
 
-    <input type="text" id="index-of-out"/>
+    <label for="index-of-out">Result</label>
+    <textarea name="" id="index-of-out" cols="30" rows="5"></textarea>
     <br/>
 
     <button onclick="typeIndex()">See it</button>

@@ -3,45 +3,64 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>From 5 to 7</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
 <body>
 <fieldset>
-    <legend>1. Allocate the array </legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <legend>5.Selection Sort</legend>
+    <p>
+        <span>Sorting</span> an array means to arrange its elements in increasing order. Write a script to sort an
+        array.
+        Use the <span>"selection sort"</span> algorithm: Find the smallest element, move it at the first position, find
+        the smallest from the rest, move it at the second position, etc.Hint: Use a second array
+    </p>
 
-    <input type="text" id="selection-sort-input"/>
+    <label for="selection-sort-input">Enter the array</label>
+    <input type="text" id="selection-sort-input" placeholder="5 6 8 3"/>
     <br/>
 
+    <label for="selection-sort-output">Result</label>
     <textarea id="selection-sort-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
-    <button onclick="selectionSort()">See the new</button>
+    <button onclick="selectionSort()">Sort it</button>
 </fieldset>
 
 <fieldset>
-    <legend>1. Allocate the array </legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <legend>6.Most Frequent</legend>
+    <p>
+        Write a program that finds the most frequent number in an array. Example:
+        {<span>4,</span> 1, 1,<span> 4,</span> 2, 3,<span> 4, 4,</span> 1, 2,<span> 4,</span> 9, 3}  4 (5 times)
+    </p>
 
-    <input type="text" id="frequent-input"/>
+    <label for="frequent-input">Enter the array</label>
+    <input type="text" id="frequent-input" placeholder="5 6 7 8"/>
     <br/>
 
+    <label for="frequent-output">Result</label>
     <textarea id="frequent-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
-    <button onclick="mostFrequent()">See the new</button>
+    <button onclick="mostFrequent()">Check it</button>
 </fieldset>
 
 <fieldset>
-    <legend>1. Allocate the array </legend>
-    <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+    <legend>7.Binary Search</legend>
+    <p>
+        Write a program that finds the index of given element in a sorted array of integers by using the <span id="underlined">binary search</span>
+        algorithm (find it in Wikipedia).
+    </p>
 
-    <input type="text" id="binary-sequence-input"/>
+    <label for="binary-sequence-input">Enter the array</label>
+    <input type="text" id="binary-sequence-input" placeholder="5 6 7 8"/>
     <br/>
 
-    <input type="text" id="binary-num-input"/>
+    <label for="binary-num-input">Searched number</label>
+    <input type="text" id="binary-num-input" placeholder="8"/>
     <br/>
 
+    <label for="binary-output">Result</label>
     <textarea id="binary-output" cols="30" rows="10" disabled="disabled"></textarea>
     <br/>
-    <button onclick="binarySearch()">See the new</button>
+    <button onclick="binarySearch()">Find it</button>
 </fieldset>
 
 

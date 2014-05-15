@@ -1,6 +1,5 @@
 function findSmallestAndLargestProperties() {
 
-
     var userInput = document.getElementById("smallestAndLargest-properties-input").value;
     var getObjectFromInput = new Function('return ' + userInput);
     var userInputAsObject = getObjectFromInput();
@@ -11,7 +10,6 @@ function findSmallestAndLargestProperties() {
         var properties = [];
 
         for (var property in inputtedObject) {
-
             properties.push(property);
         }
         return properties;
