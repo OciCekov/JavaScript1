@@ -29,8 +29,86 @@
     <button onclick="typeReversed()">See it</button>
 </fieldset>
 
+<fieldset>
+    <legend>3.Find the word</legend>
+
+    <input type="text" id="text-input"/>
+    <br/>
+
+    <input type="text" id="word-input"/>
+    <br/>
+
+    <input type="text" id="find-word-output"/>
+    <br/>
+
+    <input type="radio" name="method" id="case-sensitive" value="Case sensitive">
+    <input type="radio" name="method" id="case-insensitive" value="Case insensitive" checked>
+
+    <button onclick="typeResult()">See it</button>
+</fieldset>
+
+<fieldset>
+    <legend>4.Count the divs</legend>
+    <div id="the-div"> There are evil divs in me
+        <div> There is a master div on top of me</div>
+        <div>I'm squished</div>
+        <div>Tell me about it..... </div>
+    </div>
+
+    <input type="text" id="divs-result"/>
+
+</fieldset>
+
+<fieldset>
+    <legend>4.Number of appearance's</legend>
+
+    <input type="text" id="sequence-input"/>
+    <br/>
+
+    <input type="text" id="number-input"/>
+    <br/>
+
+    <input type="text" id="appear-output"/>
+    <br/>
+
+    <button onclick="typeAppearances()">Check them</button>
+</fieldset>
+
+<fieldset>
+    <legend>4.Number of appearance's</legend>
+
+    <input type="text" id="neighbour-sequence"/>
+    <br/>
+
+    <input type="text" id="neighbour-input"/>
+    <br/>
+
+    <input type="text" id="neighbour-output"/>
+    <br/>
+
+    <button onclick="typeIsBigger()">Check them</button>
+</fieldset>
+
+<fieldset>
+    <legend>2.Reverse Number</legend>
+
+    <input type="text" id="index-of-in"/>
+    <br/>
+
+    <input type="text" id="index-of-out"/>
+    <br/>
+
+    <button onclick="typeIndex()">See it</button>
+</fieldset>
+
 <script src="scripts/reusable.js" type="text/javascript"></script>
 <script src="scripts/lastDigit.js" type="text/javascript"></script>
 <script src="scripts/reverseNumber.js" type="text/javascript"></script>
+<script src="scripts/findTheWord.js" type="text/javascript"></script>
+<script src="scripts/countDivs.js" type="text/javascript"></script>
+<script src="scripts/repeatingNumber.js" type="text/javascript"></script>
+<script src="scripts/biggerThanNeighbours.js" type="text/javascript"></script>
+<script src="scripts/indexOfBassicaly.js" type="text/javascript"></script>
+
 </body>
 </html>
