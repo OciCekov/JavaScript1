@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01.Shapes Homework</title>
+</head>
+<body>
+<div>
+    <p>
+        1.Write functions for working with shapes in standard Planar coordinate system
+        *Points are represented by coordinates P(X, Y)
+        *Lines are represented by two points, marking their beginning and ending
+        *L(P1(X1,Y1), P2(X2,Y2))
+        *Calculate the distance between two points
+        *Check if three segment lines can form a triangle
+    </p>
+    <!--Creating one line-->
+    <label for="point-1-x">Point X:</label>
+    <input type="text" id="point-1-x"/>
+    <br/>
+    <label for="point-1-y">Point Y:</label>
+    <input type="text" id="point-1-y"/>
+    <br/>
+    <label for="point-2-x">Point X:</label>
+    <input type="text" id="point-2-x"/>
+    <br/>
+    <label for="point-2-y">Point Y:</label>
+    <input type="text" id="point-2-y"/>
+    <br/>
+
+    <label for="line-display">The Line</label>
+    <input type="text" id="line-display" name="result" disabled/>
+
+    <label for="line-calc">Calculated Line</label>
+    <input type="text" id="line-calc" name="result" disabled/>
+
+    <button onclick="seeTheLine()">Check out the line</button>
+    <!--Creating lines-->
+
+    <p>First line Coordinates</p>
+    <label for="first-line-x1">X1:</label>
+    <input type="text" id="first-line-x1"/>
+    <label for="first-line-x2">X2</label>
+    <input type="text" id="first-line-x2"/>
+    <label for="first-line-y1">Y1</label>
+    <input type="text" id="first-line-y1"/>
+    <label for="first-line-y2">Y2</label>
+    <input type="text" id="first-line-y2"/>
+
+    <p>Second Line Coordinates</p>
+    <label for="second-line-x1">X1:</label>
+    <input type="text" id="second-line-x1"/>
+    <label for="second-line-x2">X2</label>
+    <input type="text" id="second-line-x2"/>
+    <label for="second-line-y1">Y1</label>
+    <input type="text" id="second-line-y1"/>
+    <label for="second-line-y2">Y2</label>
+    <input type="text" id="second-line-y2"/>
+
+    <p>Third Line Coordinates</p>
+    <label for="third-line-x1">X1:</label>
+    <input type="text" id="third-line-x1"/>
+    <label for="third-line-x2">X2</label>
+    <input type="text" id="third-line-x2"/>
+    <label for="third-line-y1">Y1</label>
+    <input type="text" id="third-line-y1"/>
+    <label for="third-line-y2">Y2</label>
+    <input type="text" id="third-line-y2"/>
+    <br/>
+
+    <label for="is-triangle">Is it a triangle</label>
+    <input type="text" id="is-triangle" name="result" class="result" disabled/>
+    <button onclick="displayIfTriangle()">Check what's what</button>
+
+    <script src="script.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
